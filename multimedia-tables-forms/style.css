@@ -1,0 +1,57 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+    color: rgb(47, 7, 84);
+
+}
+header {text-align: center;}
+.navbar {
+    background-color: rgb(218, 168, 101);
+    padding: 15px 0;
+}
+.navbar .container  {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.nav-links{
+list-style: none;
+display: flex;
+gap: 20px;
+}
+.nav-links li {
+    display: inline-block;
+    position: relative;
+}
+.nav-links li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 5px;
+
+}
+/* underline effect*/
+.nav-links li a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(74, 3, 3);
+    transition: width 0.4s ease,left 0.4s ease;
+}
+/* Hove effect*/
+
+.nav-links li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+form {
+    border-style: solid;
+    background-color: antiquewhite;
+}
+button {border-style: dotted;}
