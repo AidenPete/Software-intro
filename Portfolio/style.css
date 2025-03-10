@@ -1,0 +1,15 @@
+@
+*
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li a {
+    color: rgb(174, 26, 26);
+    text-decoration: none;
+    font-size: 18px;
+}
